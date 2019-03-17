@@ -24,7 +24,7 @@ namespace SentimentAnalysis
         {
             var mlContext = new MLContext(seed: 1);
 
-            // BuildTrainEvaluateAndSaveModel(mlContext);
+            BuildTrainEvaluateAndSaveModel(mlContext);
             Common.ConsoleHelper.ConsoleWriteHeader("=============== End of training process ===============");
 
             while (true)
